@@ -10,7 +10,7 @@
 
 int main(void)
 {
-  char low, e, q;
+char low, e, q;
 
 e = 'e';
 q = 'q';
@@ -22,5 +22,5 @@ putchar(low);
 }
 putchar('\n');
 
- return (0);
+return (0);
 }
