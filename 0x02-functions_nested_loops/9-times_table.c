@@ -12,7 +12,7 @@ for (n = 0; n <= 9; n++)
 r = (N * n);
 if (r <= 9)
 {
-if (n <= 9 && n > 0)
+if (n > 0)
 {
 _putchar(',');
 _putchar(32);
@@ -25,7 +25,6 @@ else
 if (n <= 9)
 {
 _putchar(',');
-_putchar(32);
 _putchar(' ');
 }
 _putchar((r / 10) + '0');
@@ -35,3 +34,4 @@ _putchar((r % 10) + '0');
 _putchar('\n');
 }
 }
+
