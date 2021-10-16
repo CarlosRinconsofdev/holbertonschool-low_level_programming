@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isdigit - check the code
- *
+ *@c: variable
  * Return: 1 if is a difit 0 otherwise
  */
 
