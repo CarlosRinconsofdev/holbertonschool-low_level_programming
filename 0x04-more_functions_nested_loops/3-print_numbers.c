@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - check the code
- * 
+ *
  * Return: No
  */
 void print_numbers(void)
