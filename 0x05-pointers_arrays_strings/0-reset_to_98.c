@@ -1,6 +1,7 @@
-#include "main.h"
+include "main.h"
+
 /**
- * swap_int - check the code
+ * reset_to_98 - check the code
  * @n: pointer
  * Return: no
  */
