@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy.c - check the code
+ * _memcpy - check the code
  * @dest: Destination
  * @src: char
  * @n: int
