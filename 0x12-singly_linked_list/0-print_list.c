@@ -3,7 +3,7 @@
 /**
  * print_list - prints elements of a list
  * @h: head
- * Return: number 
+ * Return: number
  **/
 
 size_t print_list(const list_t *h)
