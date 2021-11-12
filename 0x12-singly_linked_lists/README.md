@@ -1,0 +1,1 @@
+Hello world - This is new projec c 0x12 linked list
