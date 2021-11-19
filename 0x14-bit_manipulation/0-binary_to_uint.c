@@ -15,7 +15,7 @@ while (b[len])
 len++;
 while (len)
 {
-if (b[len -1] != '0' && b[len - 1] != '1')
+if (b[len - 1] != '0' && b[len - 1] != '1')
 return (0);
 if (b[len - 1] == '1')
 result += base;
