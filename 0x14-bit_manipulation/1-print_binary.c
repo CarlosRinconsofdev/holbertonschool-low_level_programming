@@ -6,21 +6,17 @@
  */
 void print_binary(unsigned long int n)
 {
-unsigned long int l = 0, max = 32768;
+int on, i;
+unsigned long int x;
+on = 0;
+for (i = 63; i >= 0; i--)
+{
+x = (n >> i) & 1;
+if (x == 1)
+on = 1;
+if (on == 1)
+_putchar(((n >> i) & 1) + '0');
+}
 if (n == 0)
-{
 _putchar('0');
-return;
-}
-while (max)
-{
-if (l == 1 && (n & max) == 0)
-_putchar('0');
-else if ((n & max) != 0)
-{
-_putchar('1');
-l = 1;
-}
-max >>= 1;
-}
 }
