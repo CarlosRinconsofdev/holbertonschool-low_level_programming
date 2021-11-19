@@ -11,7 +11,7 @@ unsigned long int max = 0x001;
 
 max <<= index;
 if (max == 0)
-return (1);
+return (-1);
 
 if ((n & max))
 return (1);
