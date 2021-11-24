@@ -1,4 +1,9 @@
-#include "main.h"
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/uio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdlib.h>
 /**
  * read_textfile - Write aa function that reads a text file and prints it
  * @filename: char
